@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "create": {
+      "description": "Creates a stub TypeScript project.",
+      "factory": "./create/index#create",
+      "schema": "./create/schema.json"
+    }
+  }
+}

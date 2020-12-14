@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "typescript-starter-create",
+  "title": "TypeScript project stub schematic",
+  "type": "object",
+  "properties": {
+    "name": {
+      "x-prompt": "Enter your project name.",
+      "type": "string",
+      "description": "The name of the project.",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+
+    "dst": {
+      "x-prompt": "Enter your destination.",
+      "type": "string",
+      "description": "The destination directory to be written to.",
+      "$default": {
+        "$source": "argv",
+        "index": 1
+      }
+    }
+  },
+  "required": ["name", "dst"],
+  "additionalProperties": false
+}
