@@ -1,3 +1,9 @@
+# Simple CLI for Starting TypeScript Projects
+This CLI will generate a boilerplate project with eslint, husky, prettier, and .github.
+It will also include a change log. Webpack is setup by default with UMD module support
+to enable testing in Karma + Jasmine. Browserfy is installed, so it if you prefer to import
+modules you can.
+
 # Getting Started With Schematics
 
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
@@ -25,4 +31,3 @@ npm publish
 ```
 
 That's it!
- 
