@@ -5,6 +5,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
+    "schamtic:dryrun": "schematics ./src/collection.json:create --name test --dst ./tmp --force --debug true",
+    "schamtic:run": "schematics ./src/collection.json:create --name MyProject --dst ./tmp --dry-run false --force --debug true",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [

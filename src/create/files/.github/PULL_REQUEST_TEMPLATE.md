@@ -8,4 +8,4 @@ Please link to github issue.
 <!-- You can erase any parts of this template not applicable to your Pull Request. -->
 
 * [ ] Have you run linters?
-* [ ] Have you tests?
+* [ ] Have you run tests?
