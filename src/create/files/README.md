@@ -19,6 +19,7 @@ Outputting a UMD modules allows you to consume the module in the following ways:
 - ES2015 module import
 - CommonJS module require
 - AMD module require
+- Imported in your `karm.config`
 
 Your tests will import the UMD module in Karma's files array:
 ```javascript

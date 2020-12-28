@@ -1,8 +1,13 @@
 # Simple CLI for Starting TypeScript Projects
 This CLI will generate a boilerplate project with eslint, husky, prettier, and .github.
 Doc generation support is included with `typedoc`. Webpack is setup by default with UMD module support
-to enable testing in Karma + Jasmine. Browserfy is installed, so it if you prefer to import
-modules you can. There are a few other goodies such as a change log.
+Outputting a UMD modules allows you to consume the module in the following ways:
+- ES2015 module import
+- CommonJS module require
+- AMD module require
+- Imported in your `karm.config`
+
+There are a few other goodies such as a change log.
 
 # Getting Started With Schematics
 
