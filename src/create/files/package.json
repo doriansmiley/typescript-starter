@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "lib/<%= dasherize(name) %>.min.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "clean-dist": "rimraf ./lib/*",
     "docs": "typedoc --out ./docs",
